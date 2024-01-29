@@ -1,10 +1,8 @@
-// //api key netflix
-// // 8742e4577bd36cae006921fe02851a2d
 
-const API_KEY ="8742e4577bd36cae006921fe02851a2d";process. env.REACT_APP_API_KEY;
+const API_KEY =process. env.REACT_APP_API_KEY;
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
-    fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+    fetchNetflixOriginals: `/discover/tv?ap{API_KEY}&with_networks=213i_key=$`,
     fetchTopRatedMovies: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
     fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
     fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
