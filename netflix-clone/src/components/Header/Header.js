@@ -12,11 +12,9 @@ return (
     <div className='header_container'>
         <div className='header_left'>
             <ul>
-                <li><li><img src={NetflixLogo} alt="Netflix Logo" width="100" /></li>
-                    {/* <li>Netflix</li> */}
-                </li>
-                <li>Netflix</li>
-                <li>Home</li>
+                <li><img src={NetflixLogo} alt="Netflix Logo" width="100" /></li>
+                    {<li>Netflix</li>}
+                    <li>Home</li>
                 <li>TvShows</li>
                 <li>Movies</li>
                 <li>Latest</li>
